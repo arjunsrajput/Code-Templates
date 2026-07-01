@@ -10,7 +10,7 @@ ll solve(string &s,ll idx,bool tight,ll prev,bool lz){
     ll res=0;
     for(ll dig=lb; dig<=up; dig++){
 
-        //invalid case(conseculative digts after non zero digit)
+        //invalid case(consecutive digts after non zero digit)
         if(prev==dig && !lz) continue;
 
         //valid cases
